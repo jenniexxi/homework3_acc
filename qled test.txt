@@ -1,0 +1,4 @@
+https://p6-qa.samsung.com/ve/test-highlights
+
+id : qauser02
+pw : samsungqa

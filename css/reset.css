@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+}
+body,
+iframe,
+p,
+a,
+address,
+em,
+img,
+strong,
+b,
+u,
+i,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+tbody,
+thead,
+tfoot,
+th,
+tr,
+td,
+fieldset,
+form,
+label,
+legend,
+input,
+textarea,
+button,
+select,
+header,
+section,
+footer,
+article,
+aside,
+nav,
+figure,
+figcaption,
+span,
+div {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-size: 14px; */
+  /* color: #444; */
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  -webkit-text-size-adjust: none;
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+figure,
+figcaption,
+fieldset,
+div {
+  display: block;
+}
+img,
+table,
+caption,
+tbody,
+thead,
+tfoot,
+tr,
+th,
+td,
+button,
+hr {
+  border-image: none;
+}
+button {
+  border: 0px currentColor;
+  cursor: pointer;
+}
+hr {
+  border: 0px currentColor;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+span,
+th,
+var {
+  font-style: normal;
+}
+caption,
+legend {
+  line-height: 0;
+  overflow: hidden;
+  font-size: 0px;
+}
+table {
+  table-layout: fixed;
+  padding: 0;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  outline: 0px;
+}
+a:active {
+  outline: 0px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
+img,
+fieldset,
+button {
+  border: none;
+}
+.blind,
+.hidden,
+.skip,
+legend,
+caption,
+.blind {
+  display: block;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  line-height: 1px;
+  font-size: 1px;
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #666;
+  font-weight: 400;
+}
+input::-webkit-input-placeholder,
+input:-moz-placeholder,
+input:-ms-input-placeholder,
+input::placeholder,
+textarea::-webkit-input-placeholder,
+textarea:-moz-placeholder,
+textarea:-ms-input-placeholder,
+textarea::placeholder {
+  color: #666;
+  font-weight: 400;
+}
